@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) NSArray *objects;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
